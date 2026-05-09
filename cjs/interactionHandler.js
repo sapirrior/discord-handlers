@@ -2,7 +2,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 
 // You can set the folder by yourself which you'll use as command's folder
-const commandsFolder = "./commands"; // we set './commands' as default
+const commandsFolder = "./commands"; // we set './commands' as default and mostly used.
 const files = fs.readdirSync(commandsFolder);
 client.commands = new Collection();
 
